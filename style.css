@@ -153,7 +153,6 @@ body {
     position: fixed;
     overflow: hidden;
     top: 0;
-    right: 0;
     width: 100%;
     height: 0vh;
     background-color: rgba(0, 0, 0, 0.884);
@@ -163,7 +162,7 @@ body {
     align-items: center;
     color: white;
     font-size: 20px;
-    z-index: 3;
+    z-index: 2;
 }
 
 #menu-mobile i {
@@ -290,6 +289,9 @@ footer {
   .head-navs2 {display: none;}
   .head-navs3 {display: none;}
   .head-nav-mobile {display: inline;}
+  .head-navs1 a {font-size: 23px;}
+  .head-navs1{line-height: 60px;}
+  .footer-icons {position: fixed; bottom: 30px; right: 10px;}
 }
 
 
